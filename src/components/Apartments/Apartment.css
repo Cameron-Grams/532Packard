@@ -1,0 +1,7 @@
+.apartmentDiv{
+    box-sizing: border-box;
+    width: 20%;
+    border: 1px solid blue;
+    display: inline-block;
+    text-align: center;
+}

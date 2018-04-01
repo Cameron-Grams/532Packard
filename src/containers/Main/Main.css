@@ -1,0 +1,10 @@
+.mainDiv{
+    background-image: url( "https://s3.amazonaws.com/532packard/picExt1.jpg" );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1500px;
+    max-height: 800px;
+    height: 100vh;
+    margin: 3% auto;
+}

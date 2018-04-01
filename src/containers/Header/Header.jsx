@@ -7,20 +7,18 @@ const Header = ( props ) => {
     return(
         <div className="header" >
             <Button className={ "regularButton " } 
-                divStyling={ "header-third header-leftControl"}
-                buttonLable={ "All Timelines" } 
-                clickHandler={ props.returnUserTImelines }
-                sendPath={ '/user-timelines' } />
+                divStyling={ "third leftPanel"}
+                buttonLable={ "Map" } 
+                sendPath={ '/location-map' } />
 
-            <div className="header-third header-centerText">
-                <h1 className="userName">{ props.user.name }</h1>
+            <div className="third">
+                <h1 className="centerPanel">532 Packard Street</h1>
             </div>
 
             <Button className={ "regularButton" } 
-                divStyling={ "header-rightControl"}
-                buttonLable={ "Log Out" } 
-                clickHandler={ props.logoutUserSession } 
-                sendPath={ "/login" } />
+                divStyling={ "third rightPanel"}
+                buttonLable={ "Contact Us" } 
+                sendPath={ "/contact" } />
         </div>
     )
 }
