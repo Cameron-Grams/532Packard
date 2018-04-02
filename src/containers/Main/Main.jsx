@@ -1,14 +1,14 @@
 import React from 'react';
 import './Main.css'; 
 import Header from '../Header/Header'; 
+import MiddleSection from '../MiddleSection/MiddleSection'; 
 import ApartmentFooter from '../ApartmentDetails/ApartmentDetails'; 
 
 const Main = ( props ) => (
     <div className={ "mainDiv" }>
         <Header />    
-    
-    
-        < ApartmentFooter /> 
+        <MiddleSection />
+        <ApartmentFooter /> 
     </div>
 );
 

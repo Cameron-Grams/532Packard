@@ -1,0 +1,13 @@
+.mainPhotoDiv{
+    float: right;
+    width: 50%;
+    height: 600px;
+}
+
+.largeImage{
+    width: 100%;
+}
+
+.leftSide{
+    height: 600px;
+}

@@ -3,7 +3,7 @@ import './Apartment.css';
 
 const Apartment = ( props ) => (
     <div className={ "apartmentDiv"}>
-        one apartment
+        <h3>{ props.aptNumber }</h3>
     </div>
 );
 
