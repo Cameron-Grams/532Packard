@@ -1,15 +1,17 @@
 import React from 'react';
-import Lightbox from 'react-image-lightbox'; 
+import Images from '../../containers/Images/Images'; 
 import './Apartment.css';
 
 const Apartment = ( props ) => {  
-    const callSlideShow = ( props ) => (
-        <Lightbox 
+    const callSlideShow = ( props ) => {
+        console.log( '[ apartments ] in call to slides ', props ); 
+        return(
+        <Images 
             imagesForApartment={ props.imageObject.apartmentImages }
             captionDetails={ props.imageObject.details }
             titleDetails={ props.imageObject.details }
         /> 
-    )
+    )};
 
     return(
     <div className={ "apartmentDiv"}>
