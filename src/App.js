@@ -4,7 +4,7 @@ import './App.css';
 import Main from './containers/Main/Main'; 
 import LocationMap from './components/LocationMap/LocationMap';
 import Contact from './components/Contact/Contact';
-import Images from './containers/Images/Images'; 
+import TourApartment from './containers/TourApartment/TourApartment'; 
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
           <Route exact path="/" component={ Main } />      
           <Route path="/location-map" component={ LocationMap } />      
           <Route path="/contact" component={ Contact } />      
-          <Route path="/images" component={ Images } />      
+          <Route path="/tour/:apartmentId" component={ TourApartment } />      
         </Switch>
       </Router >
     );
