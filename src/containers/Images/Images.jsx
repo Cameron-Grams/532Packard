@@ -18,7 +18,7 @@ export default class Images extends Component {
     const captions = this.props.captionDetails;
     const titles = this.props.titleDetails;
  
-    console.log( '[ images ] images passed in as prop: ', images ); 
+    console.log( '[ images ] details passed in as prop: ', this.props ); 
 
     return (
       <div>
