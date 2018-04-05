@@ -1,28 +1,28 @@
 import React from 'react';
-import './ApartmentDetails.css';
-import Apartment from '../../components/Apartments/Apartment';
-import Images from '../../helpers/imageFile'; 
+import './ApartmentFooter.css';
+import Apartment from '../Apartments/Apartment';
+
 
 const ApartmentFooter = ( props ) => (
     <div className={ "apartmentFooter" } >
         < Apartment aptNumber={ "One" }
-            imageObject={ Images[ 0 ] }
+            apartmentNumber={ 0 }
         />
 
         < Apartment aptNumber={ "Two" }
-            imageObject={ Images[ 1 ] }
+            apartmentNumber={ 1 }
         />
 
         < Apartment aptNumber={ "Three" }
-            imageObject={ Images[ 2 ] }
+            apartmentNumber={ 2 }
         />
 
         < Apartment aptNumber={ "Four" }
-            imageObject={ Images[ 3 ] }
+            apartmentNumber={ 3 }
         />
 
         < Apartment aptNumber={ "Five" }
-            imageObject={ Images[ 4 ] }
+            apartmentNumber={ 4 }
         />
     </div>
 );

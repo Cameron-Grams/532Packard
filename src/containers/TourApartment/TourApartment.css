@@ -1,0 +1,11 @@
+.apartmentSummary{
+    width: 25%;
+    border: 1px solid blue;
+    margin: auto;
+    text-align: center;
+}
+
+
+.summaryImage{
+    width: 100%;
+}

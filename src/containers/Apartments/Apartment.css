@@ -4,4 +4,9 @@
     border: 1px solid blue;
     display: inline-block;
     text-align: center;
+    color: black;
+}
+
+.apartmentDiv:hover{
+    background-color: #f2b315;
 }
