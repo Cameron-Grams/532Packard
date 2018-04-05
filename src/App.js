@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Main from './containers/Main/Main'; 
-import LocationMap from './components/LocationMap/LocationMap';
+import LocationMap from './containers/LocationMap/LocationMap';
 import Contact from './components/Contact/Contact';
 import TourApartment from './containers/TourApartment/TourApartment'; 
 

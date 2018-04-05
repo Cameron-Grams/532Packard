@@ -6,7 +6,7 @@ import ApartmentFooter from '../ApartmentFooter/ApartmentFooter';
 
 const Main = ( props ) => (
     <div className={ "mainDiv" }>
-        <Header />    
+        <Header mainPage={ true } />    
         <MiddleSection />
         <ApartmentFooter /> 
     </div>

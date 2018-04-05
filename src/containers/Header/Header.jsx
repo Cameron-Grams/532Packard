@@ -4,12 +4,21 @@ import './Header.css';
 
 const Header = ( props ) => {
 
-    return(
-        <div className="header" >
+    const DestinationButton = props.mainPage ? 
             <Button className={ "regularButton " } 
                 divStyling={ "third leftPanel"}
-                buttonLable={ "Map" } 
+                buttonLable={ "Map of Location" } 
                 sendPath={ '/location-map' } />
+            :
+            <Button className={ "regularButton " } 
+                divStyling={ "third leftPanel"}
+                buttonLable={ "Return to Main" } 
+                sendPath={ '/' } />;
+
+    return(
+        <div className="header" >
+
+            { DestinationButton }
 
             <div className="third">
                 <h1 className="centerPanel">532 Packard Street</h1>
