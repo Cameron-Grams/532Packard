@@ -10,18 +10,15 @@ export class Map extends React.Component{
     }
 
     componentDidMount(){
-        console.log( '[ map ] did mount ' );
         this.loadMap();
     }
 
     loadMap(){ 
-        console.log( '[ map/ loadMap ] props are: ', this.props ); 
         if ( this.props && this.props.google ){
             const { google } = this.props;
             const maps = google.maps;
             const mapRef = this.refs.map;
             const node = ReactDOM.findDOMNode( mapRef ); 
-            console.log( '[ map ] map ref is found: ', mapRef ); 
             let zoom = 16;
             let lat = 42.272313;
             let lng = -83.742381;
