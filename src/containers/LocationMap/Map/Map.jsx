@@ -28,7 +28,7 @@ export class Map extends React.Component{
                 zoom: zoom
             })
             this.map = new maps.Map(node, mapConfig);
-            const marker = new maps.Marker( {
+            new maps.Marker( {
                 position: center,
                 map: this.map,
                 title: "532 Packard"

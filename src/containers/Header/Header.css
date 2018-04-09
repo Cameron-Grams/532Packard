@@ -26,16 +26,3 @@
   color: white;
   margin: 0;
 }
-
-.regularButton{
-  background-color: #001333;
-  border: 1px solid transparent;
-  font-size: 1em;
-  color: white; 
-  padding: 10px;
-}
-
-.regularButton:hover{
-  background-color: #f2b315;
-  color: black;
-}

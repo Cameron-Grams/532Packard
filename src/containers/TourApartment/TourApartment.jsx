@@ -43,7 +43,7 @@ export default class TourApartment extends Component {
           mainSrc={ images[ photoIndex ] }
           nextSrc={ images[ ( photoIndex + 1 ) % images.length ] }
           prevSrc={ images[ ( photoIndex + images.length - 1 ) % images.length ] }
-          onCloseRequest={() => this.setState( { photoIndex: 0 } ) }
+          onCloseRequest={() => this.setState( { photoIndex: 0, startTour: false } ) }
           onMovePrevRequest={() =>
             this.setState({
               photoIndex: (photoIndex + images.length - 1) % images.length,
