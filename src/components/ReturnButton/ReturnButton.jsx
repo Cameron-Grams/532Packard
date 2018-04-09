@@ -1,12 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './ReturnButton.css';
-
+import Button from '../Button/Button'; 
 
 const ReturnButton = () => (
-    <div className={ "css-returnButton" } >
-        <Link to={ "/" } >Return to Main</Link>
-    </div>
+    <Button className={ "regularButton " } 
+        divStyling={ "css-returnButton" }
+        buttonLable={ "Return to Main" } 
+        sendPath={ '/' } />
+
 )
 
 

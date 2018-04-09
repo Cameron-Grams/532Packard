@@ -8,7 +8,6 @@ import { apiKey as __GAPI_KEY__ } from '../../helpers/config';
 
 export class Container extends React.Component{
     render(){
-        console.log( '[ map container ] in map container render ' );
 
         const style = {
             width: '100vw',

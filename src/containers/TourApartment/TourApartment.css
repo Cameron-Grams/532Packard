@@ -1,6 +1,8 @@
 .apartmentSummary{
-    width: 25%;
+    background-color: lightblue;
+    width: 45%;
     border: 1px solid blue;
+    border-radius: 5px;
     margin: auto;
     text-align: center;
 }

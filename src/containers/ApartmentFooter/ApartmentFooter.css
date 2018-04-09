@@ -4,3 +4,9 @@
     position: relative;
     bottom: 0px;
 }
+
+.apartmentFooter > h3{
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,7 +1,10 @@
 .css-contactFormDiv{
+    background-color: lightblue;
     width: 30%;
     border: 1px solid blue;
+    border-radius: 5px;
     margin: 5% auto;
+    padding: 7px;
     text-align: left;
 }
 
@@ -9,7 +12,19 @@
     margin: 10px;
 }
 
+.css-input{
+    width: 75%;
+} 
+
 .css-messageInput{
-    width: 250px;
     height: 150px;
+}
+
+.confirmationDiv{
+    color: white;
+    text-align: center;
+}
+
+.css-inputButton:hover{
+    background-color: orange;
 }
