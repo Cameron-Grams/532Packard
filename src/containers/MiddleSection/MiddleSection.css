@@ -1,7 +1,13 @@
+.middleSectionDiv{
+    height: 75vh;
+}
+
+
 .mainPhotoDiv{
+    background-color: white;
     float: right;
     width: 50%;
-    height: 600px;
+    height: 100%;
 }
 
 .largeImage{
@@ -9,5 +15,5 @@
 }
 
 .leftSide{
-    height: 600px;
+    height: 100%;
 }

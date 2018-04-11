@@ -4,7 +4,7 @@ import Apartment from '../Apartments/Apartment';
 
 
 const ApartmentFooter = ( props ) => (
-    <div>
+    <div className={ "overallFooter" } >
     <div className={ "apartmentFooter" } ><h3>Appartments Available:</h3></div>
     <div className={ "apartmentFooter" } >
         < Apartment aptNumber={ "One" }

@@ -1,5 +1,17 @@
 .summary{
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 2%;
     background-color: white;
     text-align: center;
+}
+
+.introParagraph{
+    width: 75%;
+    margin: 2% auto;
+
+}
+
+.topParagraph{
+    margin-top: 3%;
 }
