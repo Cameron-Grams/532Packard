@@ -39,11 +39,11 @@ class ContactForm extends React.Component{
             headers: new Headers({
               'Content-Type': 'application/json'
             } )
-        } ).then( res => res.json() )
+        } ).then( res => res.json( res ) )
         .catch( error => console.error('Error:', error ))
         .then( response => {
           this.registerMessage();
-          console.log('Success:', response );
+          console.log('Successfully sent: ', data, ' and received message: ', response );
         } )
         event.preventDefault();
       }
