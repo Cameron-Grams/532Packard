@@ -40,7 +40,7 @@ export class Map extends React.Component{
 
     render(){
         const mapStyles = {
-            width: '1500px',
+            width: '100%',
             height: '800px'
         }
         return(

@@ -1,6 +1,7 @@
 .summary{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 5% 2%;
     background-color: white;
     text-align: center;
@@ -9,7 +10,7 @@
 .introParagraph{
     width: 75%;
     margin: 2% auto;
-
+    border: 1px solid red;
 }
 
 .topParagraph{

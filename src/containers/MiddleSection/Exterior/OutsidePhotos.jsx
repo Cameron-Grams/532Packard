@@ -20,7 +20,7 @@ export default class OutsidePhotos extends Component {
     const { photoIndex } = this.state;
 
     const displayOrLeave = this.state.conductTour ? 
-      ( 
+    ( 
         <Lightbox
           mainSrc={ Exterior[ photoIndex ].exteriorImage }
           nextSrc={ Exterior[ ( photoIndex + 1 ) % Exterior.length ].exteriorImage }
@@ -39,9 +39,9 @@ export default class OutsidePhotos extends Component {
           imageTitle={ Exterior[ photoIndex ].title }
           imageCaption={ Exterior[ photoIndex ].narative }
         /> 
-     )
+    )
       :
-      <Redirect to={ "/" } /> 
+    <Redirect to={ "/" } /> 
 
     return (
         <div>

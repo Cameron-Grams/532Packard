@@ -10,7 +10,7 @@ const Description = ( props ) => (
             <p>Ideal student housing for the University of Michigan; 3 minutes walk to the Law School, 5 minutes to the Bussiness School.</p>
         </div>
         <div className={ "introParagraph" }>
-            <p>Rennovated home built when America built things...five units available for only the highest qualit, most dedicated scholars...</p>
+            <p>Rennovated home built when America built things...five units available for only the highest quality, most dedicated scholars...</p>
         </div>
         <div className={ "introParagraph" } >
             <p>Ann Arbor has a long and distinguished history in the culture of our country, click below for the details of the apartments.</p>
