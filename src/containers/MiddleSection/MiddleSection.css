@@ -17,3 +17,15 @@
 .leftSide{
     height: 100%;
 }
+
+.outsidePhotosLink{
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: blue;
+}
+
+.outsidePhotosLink:hover{
+    background-color: #f2b315;
+}

@@ -30,7 +30,7 @@ export default class TourApartment extends Component {
   render() {
     const { photoIndex, tourApartment } = this.state;
     const images = tourApartment.apartmentImages; 
-    const caption = tourApartment.details;
+    const caption = tourApartment.narative;
     const title = tourApartment.details;
 
     return (
