@@ -14,15 +14,25 @@
 
 .css-input{
     width: 75%;
+    font-size: 1em;
 } 
 
 .css-messageInput{
     height: 150px;
+    font-size: 1.5em;
+}
+
+.css-labelDiv{
+    margin: 7px 0px;
 }
 
 .confirmationDiv{
     color: white;
     text-align: center;
+}
+
+.css-inputButton{
+    width: 25%;
 }
 
 .css-inputButton:hover{

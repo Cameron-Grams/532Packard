@@ -1,7 +1,8 @@
 .mainDiv{
     background-color: #001333;
-    border: 1px solid yellow; 
     margin: auto;
     height: 100vh;
-    
+    max-height: 1000px;
+    display: flex; 
+    flex-direction: column;
 }

@@ -33,6 +33,7 @@ class ContactForm extends React.Component{
           email: this.state.email,
           message: this.state.message
         }; 
+        this.registerMessage();
         fetch( `${ endpoint }/contact`, {
             method: 'POST', 
             body: JSON.stringify( data ), 
@@ -42,7 +43,7 @@ class ContactForm extends React.Component{
         } ).then( res => res.json( res ) )
         .catch( error => console.error('Error:', error ))
         .then( response => {
-          this.registerMessage();
+          
           console.log('Successfully sent: ', data, ' and received message: ', response );
         } )
         event.preventDefault();
@@ -62,17 +63,17 @@ class ContactForm extends React.Component{
                 <h2>Send us a message with your email and we'll be in touch!</h2>
                 <form className={ "css-actualForm" } onSubmit={ this.handleSubmit }>
                         <label>
-                          <div>Name:</div>
+                          <div className={ "css-labelDiv" } >Name:</div>
                           <input className={ "css-input" } type="text" name={ "name" } value={ this.state.value } onChange={ this.handleChange } />
                         </label>
                         <br />
                         <label>
-                          <div>Email:</div>
+                          <div className={ "css-labelDiv" }>Email:</div>
                           <input className={ "css-input" } type="email" required name={ "email" } value={ this.state.value } onChange={ this.handleChange } />
                         </label>
                         <br/>
                         <label>
-                          <div>Message:</div>
+                          <div className={ "css-labelDiv" }>Message:</div>
                           <textarea className={ "css-input css-messageInput" } type="text" name={ "message" } value={ this.state.value } onChange={ this.handleChange } />
                         </label>
                         <br/>

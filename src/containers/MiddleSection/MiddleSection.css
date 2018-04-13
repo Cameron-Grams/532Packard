@@ -8,19 +8,23 @@
     float: right;
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .largeImage{
     width: 100%;
+    flex: 1;
 }
 
 .leftSide{
     height: 100%;
+    width: 50%;
 }
 
 .outsidePhotosLink{
-    width: 100%;
-    margin: 0px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 10px;
     text-align: center;
     background-color: #00027f;
