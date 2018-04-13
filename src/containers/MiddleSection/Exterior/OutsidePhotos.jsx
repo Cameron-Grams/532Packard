@@ -3,9 +3,6 @@ import { Redirect } from 'react-router';
 import Lightbox from 'react-image-lightbox';
 import Exterior from '../../../helpers/exteriorTour'; 
 
-
-import './Exterior.css'; 
-
 export default class OutsidePhotos extends Component {
   constructor(props) {
     super(props);
