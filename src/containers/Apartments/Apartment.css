@@ -1,9 +1,13 @@
 .apartmentDiv{
-    box-sizing: border-box;
-    width: 20%;
-    border: 1px solid blue;
-    display: inline-block;
-    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    flex: 1;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.apartmentDiv > a{
     color: black;
 }
 

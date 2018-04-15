@@ -6,17 +6,22 @@ import Description from '../../components/Description/Description';
 
 const MainPhoto = ( props ) => (
     <div className={ "middleSectionDiv" } >
-        <Link to={ `/outside-photos` } >
-            <div className={ "mainPhotoDiv" } >
-                <h3 className={ "outsidePhotosLink" }>Click for exterior Photos</h3>
-                <img className={ "largeImage" } src="https://s3.amazonaws.com/532packard/picExt1.jpg" alt="overview" />
-            </div>
-        </Link>
-
-        <div className={ "leftSide" }>
+        <div className={ "middleLeftSection" }>
             < Description /> 
+        </div>
+
+
+        <div className={ "middleRightSection" } >
+            <Link to={ `/outside-photos` } >
+                <div className="rightSideTitle"><h3 className={ "" }>Click for exterior Photos</h3></div>
+                <div className="rightSideImageFrame">
+                    <img className={ "rightSideImage" } src="https://s3.amazonaws.com/532packard/picExt1.jpg" alt="overview" />
+                </div>
+            </Link>
         </div>
     </div>
 );
 
 export default MainPhoto; 
+
+

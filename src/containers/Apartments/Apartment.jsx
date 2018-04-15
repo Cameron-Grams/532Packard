@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 import './Apartment.css';
 
 const Apartment = ( props ) =>  (  
-    <Link to={ `/tour/${ props.apartmentNumber }` } >
     <div className={ "apartmentDiv"}  >
+      <Link to={ `/tour/${ props.apartmentNumber }` } >
+
         <h3>{ props.aptNumber }</h3>
+      </Link>
     </div>
-    </Link>
+    
 );
 
 export default Apartment; 

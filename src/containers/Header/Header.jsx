@@ -6,12 +6,12 @@ const Header = ( props ) => {
 
     const DestinationButton = props.mainPage ? 
             <Button className={ "regularButton " } 
-                divStyling={ "third leftPanel"}
+                divStyling={ "leftPanel"}
                 buttonLable={ "Map of Location" } 
                 sendPath={ '/location-map' } />
             :
             <Button className={ "regularButton " } 
-                divStyling={ "third leftPanel"}
+                divStyling={ "leftPanel"}
                 buttonLable={ "Return to Main" } 
                 sendPath={ '/' } />;
 
@@ -20,12 +20,12 @@ const Header = ( props ) => {
 
             { DestinationButton }
 
-            <div className="third">
-                <h1 className="centerPanel">532 Packard Street</h1>
+            <div className="centerPanel">
+                <h1 className={ "centerTitle" } >532 Packard Street</h1>
             </div>
 
             <Button className={ "regularButton" } 
-                divStyling={ "third rightPanel"}
+                divStyling={ "rightPanel"}
                 buttonLable={ "Contact Us" } 
                 sendPath={ "/contact" } />
         </div>
