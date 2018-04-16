@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Apartment.css';
 
 const Apartment = ( props ) =>  (  
-    <div className={ "apartmentDiv"}  >
+    <div className={ `${ props.typeApartment }`}  >
       <Link to={ `/tour/${ props.apartmentNumber }` } >
 
         <h3>{ props.aptNumber }</h3>

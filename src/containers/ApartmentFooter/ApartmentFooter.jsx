@@ -8,23 +8,33 @@ const ApartmentFooter = ( props ) => (
         <div className={ "apartmentFooterTitle" } ><h3>Appartments Available:</h3></div>
 
         <div className={ "apartmentFooterElementsFrame" } >
-            < Apartment aptNumber={ "One" }
+            < Apartment 
+                typeApartment= { "apartmentDiv" }
+                aptNumber={ "One" }
                 apartmentNumber={ 0 }
             />
 
-            < Apartment aptNumber={ "Two" }
+            < Apartment 
+                typeApartment= { "apartmentDiv currentlyRented" }
+                aptNumber={ "Two" }
                 apartmentNumber={ 1 }
             />
 
-            < Apartment aptNumber={ "Three" }
+            < Apartment 
+                typeApartment= { "apartmentDiv" }
+                aptNumber={ "Three" }
                 apartmentNumber={ 2 }
             />
 
-            < Apartment aptNumber={ "Four" }
+            < Apartment 
+                aptNumber={ "Four" }
+                typeApartment= { "apartmentDiv currentlyRented" }
                 apartmentNumber={ 3 }
             />
 
-            < Apartment aptNumber={ "Five" }
+            < Apartment 
+                aptNumber={ "Five" }
+                typeApartment= { "apartmentDiv" }
                 apartmentNumber={ 4 }
             />
         </div>

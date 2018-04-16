@@ -12,6 +12,10 @@
     color: black;
 }
 
+.currentlyRented > a{
+    color: lightgray;
+}
+
 .apartmentDiv:hover{
     background-color: #f2b315;
 }
