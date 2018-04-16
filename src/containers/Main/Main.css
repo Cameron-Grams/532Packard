@@ -5,9 +5,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1300px;
 
 }
 
+.additionalSpaceDiv{
+    width: 100%;
+    display: none;
+    height: 10px;
+    background-color: #4c50ff;
+}
+
+@media ( min-width: 1300px ){ 
+    .mainDiv{
+        margin: 10px auto;
+    }
+ }
+
+@media ( min-width: 1000px ){ 
+    .additionalSpaceDiv{
+        display: block;
+    }
+ }
 
 @media ( min-width: 760px ){ 
  }

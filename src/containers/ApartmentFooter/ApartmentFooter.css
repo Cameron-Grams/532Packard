@@ -8,7 +8,7 @@
 
 .apartmentFooterTitle{
     background-color: white;
-    width: 100%;
+    border: 1px solid #4c50ff;
     flex: 2;
     display: flex;
     flex-direction: column;
