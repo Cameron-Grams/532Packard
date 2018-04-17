@@ -8,12 +8,19 @@ const spaceDiv = (
     <div className="additionalSpaceDiv"></div>
 );
 
+const largeDisplayTopMargin = (
+    <div className="largeDisplayTopMarginDiv" ></div>
+);
+
 const Main = ( props ) => (
-    <div className={ "mainDiv" }>
-        <Header mainPage={ true } />    
-        <MiddleSection />
-        { spaceDiv }
-        <ApartmentFooter /> 
+    <div>
+        { largeDisplayTopMargin }
+        <div className={ "mainDiv" }>
+            <Header mainPage={ true } />    
+            <MiddleSection />
+            { spaceDiv }
+            <ApartmentFooter /> 
+        </div>
     </div>
 );
 
