@@ -3,18 +3,11 @@ import { Link } from 'react-router-dom';
 import './Button.css'; 
 
 const Button = ( props ) => (  
-            <div className={ ` myButtonClass ${ props.divStyling }`  } >
-            <button className={ `${ props.className }` } onClick={ props.clickHandler } >
-                { props.sendPath ?   
-                
-                    <Link className="routingLink" to={ props.sendPath } >
-                    { props.buttonLable } 
-                    </Link>
-                :
+        <Link className="routingLink" to={ props.sendPath } >
+            <div className={ ` myButtonClass ${ props.divStyling } ${ props.className }`  } onClick={ props.clickHandler }  >
                 <span>{ props.buttonLable }</span>
-                }
-            </button>
             </div>
+        </Link>
 );
 
 export default Button; 

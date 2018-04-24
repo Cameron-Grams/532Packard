@@ -9,7 +9,6 @@
 
 .leftPanel{
   background-color: #000133;
-  height: 75px;
   flex: 1;
   display: flex;
   align-items: center;
@@ -28,7 +27,6 @@
 
 .rightPanel{
   background-color: #000133;
-  height: 75px;
   flex: 1;
   display: flex;
   align-items: center;

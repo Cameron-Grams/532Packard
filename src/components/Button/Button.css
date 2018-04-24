@@ -4,6 +4,7 @@
   }
 
 .regularButton{
+  margin: 0 10px;
   background-color: #001333;
   border: 1px solid transparent;
   border-radius: 5px;
