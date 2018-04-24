@@ -35,4 +35,7 @@
   justify-content: center;
 }
 
-
+.rightPanel > button {  
+  border: 2px solid white;
+  border-radius: 3px;
+}

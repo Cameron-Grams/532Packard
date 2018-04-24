@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Lightbox from 'react-image-lightbox';
 import Apartments from '../../helpers/apartmentsFile'; 
-
-import ReturnButton from '../../components/ReturnButton/ReturnButton';
-
 import './TourApartment.css'; 
 import TourSummary from './TourSummary';
 
@@ -35,8 +32,6 @@ export default class TourApartment extends Component {
 
     return (
       <div>
-        <ReturnButton /> 
-
         <TourSummary clickHandler={ this.startPhotoTour } siteDetails={ tourApartment } /> 
 
         { this.state.startTour && <Lightbox

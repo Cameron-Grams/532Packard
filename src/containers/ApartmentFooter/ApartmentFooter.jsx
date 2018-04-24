@@ -15,7 +15,7 @@ const ApartmentFooter = ( props ) => (
             />
 
             < Apartment 
-                typeApartment= { "apartmentDiv currentlyRented" }
+                typeApartment= { "apartmentDiv" }
                 aptNumber={ "Two" }
                 apartmentNumber={ 1 }
             />
@@ -28,7 +28,7 @@ const ApartmentFooter = ( props ) => (
 
             < Apartment 
                 aptNumber={ "Four" }
-                typeApartment= { "apartmentDiv currentlyRented" }
+                typeApartment= { "apartmentDiv" }
                 apartmentNumber={ 3 }
             />
 
