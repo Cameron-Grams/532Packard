@@ -5,36 +5,36 @@ import Apartment from '../Apartments/Apartment';
 
 const ApartmentFooter = ( props ) => (
     <div className={ "overallFooter" } >
-        <div className={ "apartmentFooterTitle" } ><h3>Appartments Available:</h3></div>
+        <div className={ "apartmentFooterTitle" } ><h3>All Units are currently rented</h3></div>
 
         <div className={ "apartmentFooterElementsFrame" } >
             < Apartment 
-                typeApartment= { "apartmentDiv" }
+                typeApartment= { "apartmentDiv currentlyRented" }
                 aptNumber={ "One" }
                 apartmentNumber={ 0 }
             />
 
             < Apartment 
-                typeApartment= { "apartmentDiv" }
+                typeApartment= { "apartmentDiv currentlyRented " }
                 aptNumber={ "Two" }
                 apartmentNumber={ 1 }
             />
 
             < Apartment 
-                typeApartment= { "apartmentDiv" }
+                typeApartment= { "apartmentDiv currentlyRented" }
                 aptNumber={ "Three" }
                 apartmentNumber={ 2 }
             />
 
             < Apartment 
                 aptNumber={ "Four" }
-                typeApartment= { "apartmentDiv" }
+                typeApartment= { "apartmentDiv currentlyRented" }
                 apartmentNumber={ 3 }
             />
 
             < Apartment 
                 aptNumber={ "Five" }
-                typeApartment= { "apartmentDiv" }
+                typeApartment= { "apartmentDiv currentlyRented" }
                 apartmentNumber={ 4 }
             />
         </div>
